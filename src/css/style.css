@@ -1,0 +1,25 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #54BCEB;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1rem;
+    padding-right: 20px; }
+  .navbar .logo {
+    width: 95%;
+    margin-right: 1em; }
+
+#welcome {
+  position: relative;
+  background-image: url("../img/welcome.png");
+  min-height: 600px; }
+  #welcome .primary-overlay {
+    background-color: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
